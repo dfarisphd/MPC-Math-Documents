@@ -1,0 +1,31 @@
+*.doc !diff
+*.DOC !diff
+
+## http://git-scm.com/docs/gitattributes
+##
+## End-of-line conversion
+## While Git normally leaves file contents alone,
+## it can be configured to normalize line endings to LF in the repository and,
+## optionally, to convert them to CRLF when files are checked out.
+## 
+## Here is an example that will make Git normalize .txt, .vcproj and .sh files,
+## ensure that .vcproj files have CRLF and .sh files have LF in the working
+## directory, and ...
+##
+## *** prevent .jpg files from being normalized regardless of their content:
+
+*.txt		text
+*.vcproj	eol=crlf
+*.sh		eol=lf
+
+*.jpg		-text
+*.pdf		-text
+*.png		-text
+*.PNG		-text
+
+*.doc		-text
+*.docx		-text
+*.xls		-text
+*.xlsx		-text
+*.ppt		-text
+*.pptx		-text

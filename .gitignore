@@ -1,0 +1,18 @@
+!.gitignore
+!.gitattributes
+
+!.gitme
+
+## IGNORE - the url shortcut to 2-Control Website
+2CONTROL-MPCMATH-Website.url
+
+## These should definitely be included - and typed in
+## a possible git attributes file (.gitattributes)
+##   MPCMath - Four Tank Process - Project Results.PNG
+##   MPCMATH-Readme-Documents/
+
+## Definitely ignore the MPC Math Software Downloads
+MPCMATH-Software-Downloads/
+
+## IGNORE the shortcut/symlink to "C://2-Control//MPCMath//"
+TwoControl-MPCMath.lnk
