@@ -14,5 +14,6 @@
 ## Definitely ignore the MPC Math Software Downloads
 MPCMATH-Software-Downloads/
 
-## IGNORE the shortcut/symlink to "C://2-Control//MPCMath//"
+## IGNORE the shortcut/symlink to
+## "C://2-Control//MPCMath//"
 TwoControl-MPCMath.lnk
